@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+@media screen and ( min-height: 736px ) {
+    #header {
+        height: 100vh;
+    }
+}
+
+@media screen and ( max-height: 736px ) {
+    #header {
+        height: 750px;
+    }
+}
+
+#header {
+    background: url('../img/header.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 70%;
+}
+
+#header img {
+    margin-top: 35px;
+}
+
+#header figure {
+    margin-top: 35px;
+}
+
+
+#discover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+
+nav {
+    margin-bottom: 30px;
+}
+
+.presentation-text {
+    text-align: justify;
+}
+
+.presentation-card {
+    margin-bottom: 30px;
+}
+
+.company-green {
+    color: #70b342;
+}
+.company-greener {
+    color: #264f25;
+}
+
+#find h1 {
+    margin-bottom: 20px;
+}
