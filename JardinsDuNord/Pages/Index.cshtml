@@ -4,31 +4,11 @@
     ViewData["Title"] = "Jardins du Nord";
 }
 
-<div class="container-fluid">
-    <div class="row text-center" id="header">
-        <div class="col-12">
-            <img src="img/logo_header.png" alt="Logo de l'entreprise"/>
-            
-            <figure class="text-white">
-                <blockquote class="blockquote">
-                    <p>“Aménagements sur mesure depuis 1982„</p>
-                </blockquote>
-                <figcaption class="blockquote-footer text-white">
-                    Albert Martin, <cite>fondateur</cite>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="col-12">
-            <a id="discover" class="btn btn-light company-greener"><strong>Nous découvrir...</strong></a>
-        </div>
-    </div>
-</div>
-
 <!-- Barre de navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm" id="nav">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-lg" id="nav">
     <div class="container">
         <!-- Logo -->
-        <img src="img/Logo_Nav_V2.png" alt="Logo entreprise" style="height: 67px;width: 166px;">
+        <img src="img/Logo_Nav_only.png" alt="Logo entreprise" style="height: 67px;width: 87px;">
 
         <!-- Bouton mobile -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +31,28 @@
         </div>
     </div>
 </nav>
+
+<!-- Header -->
+<div class="container-fluid" id="header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center" id="header-pres">
+                <img src="img/logo_pres.png" alt="Jardins du Nord"/>
+                <p class="text-white">Paysagistes confirmés</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <figure class="text-white">
+                    <blockquote class="blockquote">
+                        <p>"Jardins sur mesure depuis 1982"</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer text-white">
+                        Albert Martin, <cite>fondateur</cite>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Pres cards -->
 <div class="container text-center" id="services">
@@ -123,14 +125,85 @@
                 60200 Compiègne
             </p>
 
-            <p style="margin-bottom: 0"><span class="company-green"><strong>TÈL.</strong></span> 03.44.03.44.03</p>
-            <p><span class="company-green"><strong>MAIL.</strong></span> jardinsdunord@contact.com</p>
+            <p style="margin-bottom: 0"><span class="company-green"><strong>TÈL. :</strong></span> 03.44.03.44.03</p>
+            <p><span class="company-green"><strong>COURRIEL :</strong></span> jardinsdunord@contact.com</p>
             <p class="text-muted presentation-text"><i>Nous sommes heureux d'offrir nos services dans un rayon d'environ 50 km autour de notre localité. Plus d'informations lors de la réalisation du devis.</i></p>
         </div>
         <iframe class="col-md-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6929.432316600243!2d2.829400266203466!3d49.41638567967378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d68744179c0b%3A0xa1b3c776ffb2387d!2sCh%C3%A2teau%20de%20Compi%C3%A8gne!5e0!3m2!1sen!2sfr!4v1686226571896!5m2!1sen!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    
+    <hr/>
 </div>
 
-<div class="container-fluid text-center" style="background-color:#0dcaf0;height: 50px;">
-    <h1 class="text-white">CECI EST UN FOOTER</h1>
+<!-- Contact -->
+<div class="container" id="contact">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <h1 class="company-greener">Nous contacter</h1>
+        </div>
+        <div class="col-md-8"></div>
+    </div>
+    
+    <form class="needs-validation" novalidate>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="firstName">Prénom <span class="text-muted">(requis)</span></label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            </div>
+            
+            <div class="col-md-6 mb-3">
+                <label for="lastName">Nom <span class="text-muted">(requis)</span></label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="firstName">Adresse mail <span class="text-muted">(requis)</span></label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            </div>
+            
+            <div class="col-md-6 mb-3">
+                <label for="lastName">Numéro de téléphone <span class="text-muted">(requis)</span></label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="object">Objet <span class="text-muted">(requis)</span></label>
+            <select class="form-select d-block w-100" id="object" required>
+              <option>Réalisation d'un devis</option>
+              <option>Demande d'information</option>
+              <option>Autre</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="message">Message <span class="text-muted">(requis)</span></label>
+            <textarea class="form-control" placeholder="" id="message" style="height: 100px"></textarea>
+        </div>
+
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">J'autorise <span class="company-green">Jardins du Nord</span> à me recontacter <span class="text-muted">(requis)</span></label>
+        </div>
+        
+        <!-- Bouton désactivé car démo -->
+        <button class="btn text-white" type="button" id="submitButton">Envoyer</button>
+    </form>
 </div>
+
+<!-- Footer -->
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top text-md-center">
+    <p class="col-md-4 mb-0 text-white">&copy; 2023 Jardins Du Nord</p>
+
+    <div class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
+        <img src="img/logo_footer.png" class="bi me-2" width="59" height="46">
+    </div>
+
+    <ul class="nav col-md-4 justify-content-center">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Crédits</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">C.G.U.</a></li>
+    </ul>
+</footer>
