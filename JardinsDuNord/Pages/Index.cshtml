@@ -38,8 +38,63 @@
         Sed tincidunt non augue ultrices ultricies. Proin pharetra vulputate neque in tempus. Vestibulum nec velit lorem. Fusce pharetra, erat eget lacinia dapibus, arcu velit hendrerit leo, vel pulvinar sapien nulla sed elit. Quisque massa nulla, dapibus sed ante tincidunt, ornare consectetur erat. Proin nec magna eget justo imperdiet egestas. Mauris diam tortor, porttitor quis lectus a, sollicitudin tempus lectus. Sed auctor pellentesque lorem. Praesent non hendrerit arcu. Duis varius justo vitae tortor auctor bibendum. Integer vulputate maximus justo, ut volutpat sem commodo in. Suspendisse sagittis, ante eu consectetur porta, turpis risus consequat eros, ut euismod dolor neque id lacus.
     </p>
 </main>
-<footer class="container-fluid text-center" style="background-color:#264f25; height:10rem;">
-    <div class="bg-secondary col-4 row justify-content-center align-items-center">
-        <img src="img/C_Sharp.png" class="" alt="le logo de la société">
+
+<footer class="row align-items-center" style="background-color:#264f25;">
+    <div class="text-center mx-auto">
+        <img src="img/C_Sharp.png" id="logo-footer" alt="le logo de la société">
+    </div>
+    <div class="align-items-center justify-content-center">
+        <div class="text-center">
+            <button type="button" class="btn border-dark rounded text-light btn btn-outline-primary"
+                    data-bs-toggle="modal" data-bs-target="#creditsModal">
+                Crédits
+            </button>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn border-dark rounded text-light btn btn-outline-primary"
+                    data-bs-toggle="modal" data-bs-target="#CGU">
+                CGU
+            </button>
+        </div>
+    </div>
+
+    <!--MODAL CREDIT-->
+    <div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="exampleModalLabel">
+                        Crédits
+                    </h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><span class="fw-bold">Identité graphique:</span> Marc</p>
+                    <p><span class="fw-bold">Codage du site:</span> Arthur / Marc / Alban</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MODAL CGU-->
+    <div class="modal fade" id="CGU" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="exampleModalLabel">
+                        CGU
+                    </h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
