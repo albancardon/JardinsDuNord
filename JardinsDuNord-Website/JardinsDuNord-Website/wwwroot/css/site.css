@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#header {
+  height: 30%;
+  background: url('../img/header.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 70%;
+  margin-bottom: 15px;
+}
+
+#header-pres {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+#nav a {
+  color: #264f25;
+}
+
+
+#discover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.presentation-text {
+  text-align: justify;
+}
+
+.presentation-card {
+  margin-bottom: 30px;
+}
+
+.company-green {
+  color: #70b342;
+}
+.company-greener {
+  color: #264f25;
+}
+
+#find h1 {
+  margin-bottom: 20px;
+}
+
+form label {
+  color: #264f25;
+}
+
+#submitButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #70b342;
+}
+
+footer {
+  background-color: #264f25;
+  margin: 0;
+}
