@@ -88,3 +88,21 @@ footer {
   background-color: #264f25;
   margin: 0;
 }
+
+#credits a {
+  text-decoration: none;
+  color: #70b342;
+}
+
+#cgu {
+  text-align: justify;
+}
+
+#cgu a {
+  color: #70b342;
+}
+
+#cgu p {
+  margin-top: 30px;
+  margin-bottom: 0;
+}

@@ -5,15 +5,10 @@
 }
 
 <!-- Barre de navigation -->
-<nav id="nav" class="navbar
-            navbar-expand-lg
-            navbar-light
-            bg-light
-            sticky-top
-            shadow-lg">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-lg" id="nav">
     <div class="container">
         <!-- Logo -->
-        <img src="img/Logo_Nav_only.png" alt="Logo entreprise" style="height: 67px;width: 87px;">
+        <img src="img/Logo_Nav_only.png" alt="Logo de l'entreprise Jardins du Nord : un logo vert d'une pelle cresant le sol, avec des petites feuilles sur le dessus." style="height: 67px;width: 87px;">
         
         <!-- Bouton mobile -->
         <button class="navbar-toggler" id="navbarBurgerButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Afficher navigation">
@@ -24,7 +19,7 @@
         <div class="collapse navbar-collapse text-center" id="navbarContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#header">Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#find">Lieu</a>
@@ -37,14 +32,17 @@
     </div>
 </nav>
 
-<!-- Header -->
+<!-- Bannière -->
 <div class="container-fluid" id="header">
     <div class="container">
         <div class="row align-items-center">
+            <!-- Logo approfondi -->
             <div class="col-md-6 text-center" id="header-pres">
                 <img src="img/logo_pres.png" alt="Jardins du Nord"/>
                 <p class="text-white">Paysagistes confirmés</p>
             </div>
+            
+            <!-- Citation Albert Martin -->
             <div class="col-md-6 text-center">
                 <figure class="text-white">
                     <blockquote class="blockquote">
@@ -59,18 +57,24 @@
     </div>
 </div>
 
-<!-- Pres cards -->
+<!-- Présentation des services -->
 <div class="container text-center" id="services">
     <!-- Entretien -->
     <div class="row align-items-center presentation-card">
+        <!-- Image -->
         <div class="col-md-3">
-            <img class="img-thumbnail" src="img/entretien.png"/>
+            <img class="img-thumbnail" src="img/entretien.png" alt="Image d'une personne qui tond la pelouse."/>
         </div>
+        
+        <!-- Contenu -->
         <div class="col-md-9 text-md-start">
             <div class="row">
+                <!-- Titre -->
                 <div class="col-12">
                     <h1 class="company-greener">Entretien</h1>
                 </div>
+                
+                <!-- Texte -->
                 <div class="col-12">
                     <p class="presentation-text">Forts de notre expertise et de notre engagement envers la satisfaction de nos clients, nous sommes fiers de vous offrir des services d'entretien paysager de haute qualité. Chez <span class="company-green">Jardins du Nord</span>, nous comprenons l'importance de maintenir vos espaces verts impeccables tout au long de l'année. Notre équipe de professionnels qualifiés est dédiée à prendre soin de votre jardin, de vos pelouses, de vos parterres de fleurs et de tous les éléments qui contribuent à la beauté et à la fonctionnalité de votre espace extérieur. Nous adaptons nos services d'entretien paysager à vos besoins spécifiques. Nous proposons une gamme complète de prestations, incluant la tonte et l'arrosage des pelouses, la taille des haies et des arbustes, le désherbage, l'enlèvement des feuilles, ainsi que l'application d'engrais et de produits phytosanitaires respectueux de l'environnement. Nous privilégions des méthodes durables dans nos pratiques d'entretien, et mettons également un point d'honneur à utiliser des équipements modernes et performants, permettant d'optimiser nos interventions tout en minimisant notre empreinte écologique.</p>
                 </div>
@@ -80,32 +84,44 @@
 
     <!-- Création -->
     <div class="row align-items-center presentation-card">
+        <!-- Contenu -->
         <div class="col-md-9 order-2 text-md-start">
             <div class="row">
+                <!-- Titre -->
                 <div class="col-12">
                     <h1 class="company-greener">Création</h1>
                 </div>
+                
+                <!-- Texte -->
                 <div class="col-12">
                     <p class="presentation-text">Chez <span class="company-green">Jardins du Nord</span>, nous sommes passionnés par la création d'espaces extérieurs uniques et inspirants qui reflètent votre vision et votre style de vie. Que vous souhaitez transformer votre jardin en un havre de paix, créer une ambiance conviviale pour recevoir vos proches ou aménager un espace de détente moderne, notre équipe d'experts en aménagement paysager est là pour concrétiser vos idées. Que vous recherchiez un design paysager contemporain, traditionnel ou éclectique, nous sommes en mesure de créer des aménagements sur mesure qui mettent en valeur les caractéristiques naturelles de votre terrain. De la sélection des végétaux adaptés à votre climat et à votre sol, à l'agencement harmonieux des éléments tels que les chemins, les terrasses, les murets et les installations d'éclairage, nous apportons une attention méticuleuse aux détails pour créer un espace extérieur harmonieux et équilibré.</p>
                     <p class="presentation-text text-muted"><i>Notez que nous privilégions l'utilisation de végétaux indigènes, résistants et nécessitant moins d'entretien, ainsi que des pratiques d'aménagement respectueuses de l'environnement. Nous sommes conscients de l'importance de préserver la beauté naturelle de notre environnement, tout en créant des espaces fonctionnels et esthétiques.</i></p>
                 </div>
             </div>
         </div>
+        
+        <!-- Image -->
         <div class="col-md-3 order-1 order-md-2">
-            <img class="img-thumbnail rounded" src="img/création.png"/>
+            <img class="img-thumbnail rounded" src="img/création.png" alt="Photo d'un massif bien entretenu avec des arbustes bien taillés et des pierres blanches."/>
         </div>
     </div>
     
     <!-- Au service des particuliers -->
     <div class="row align-items-center presentation-card">
+        <!-- Image -->
         <div class="col-md-3">
-            <img class="img-thumbnail rounded" src="img/service.png"/>
+            <img class="img-thumbnail rounded" src="img/service.png" alt="Image d'une main serrant la main à une branche d'arbre"/>
         </div>
+        
+        <!-- Contenu -->
         <div class="col-md-9 text-md-start">
             <div class="row">
+                <!-- Titre -->
                 <div class="col-12">
                     <h1 class="company-greener">Au service des particuliers</h1>
                 </div>
+                
+                <!-- Texte -->
                 <div class="col-12">
                     <p class="presentation-text">Nous croyons en l'importance de la satisfaction du client. Nous nous efforçons de vous offrir un service de qualité supérieure, en respectant les délais convenus et en veillant à ce que chaque étape de votre projet soit réalisée avec professionnalisme et précision. Notre objectif est de créer un espace extérieur qui vous procure joie, sérénité et fierté.</p>
                     <p class="presentation-text company-green">Contactez-nous dès aujourd'hui pour discuter de votre projet d'aménagement paysager résidentiel. Que vous ayez une idée précise en tête ou que vous cherchiez l'inspiration, notre équipe est prête à transformer votre espace extérieur en un véritable paradis.</p>
@@ -114,16 +130,16 @@
         </div>
     </div>
     
-    
     <hr>
 </div>
 
-<!-- Localisation -->
+<!-- Emplacement -->
 <div class="container" id="find">
     <div class="row">
+        <!-- Coordonnées -->
         <div class="col-md-4">
             <h1 class="text-center company-greener">Où nous trouver...</h1>
-            
+
             <p>
                 <strong>Les Jardins Du Nord SARL</strong><br>
                 12 rue des cerisiers<br>
@@ -134,6 +150,8 @@
             <p><span class="company-green"><strong>COURRIEL :</strong></span> jardinsdunord@contact.com</p>
             <p class="text-muted presentation-text"><i>Nous sommes heureux d'offrir nos services dans un rayon d'environ 50 km autour de notre localité. Plus d'informations lors de la réalisation du devis.</i></p>
         </div>
+
+        <!-- Widget Google Maps -->
         <iframe class="col-md-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6929.432316600243!2d2.829400266203466!3d49.41638567967378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d68744179c0b%3A0xa1b3c776ffb2387d!2sCh%C3%A2teau%20de%20Compi%C3%A8gne!5e0!3m2!1sen!2sfr!4v1686226571896!5m2!1sen!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     
@@ -142,72 +160,123 @@
 
 <!-- Contact -->
 <div class="container" id="contact">
+    <!-- Titre -->
     <div class="row">
         <div class="col-md-4 text-center">
             <h1 class="company-greener">Nous contacter</h1>
         </div>
         <div class="col-md-8"></div>
     </div>
-    
+
     <form class="needs-validation" novalidate>
+        <!-- Prénom Nom -->
         <div class="row">
             <div class="col-md-6 mb-3">
                 <label for="firstName">Prénom <span class="text-muted">(requis)</span></label>
                 <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
             </div>
-            
+
             <div class="col-md-6 mb-3">
                 <label for="lastName">Nom <span class="text-muted">(requis)</span></label>
                 <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
             </div>
         </div>
-        
-        
+
+        <!-- Mail & téléphone -->
         <div class="row">
             <div class="col-md-6 mb-3">
                 <label for="firstName">Adresse mail <span class="text-muted">(requis)</span></label>
                 <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
             </div>
-            
+
             <div class="col-md-6 mb-3">
                 <label for="lastName">Numéro de téléphone <span class="text-muted">(requis)</span></label>
                 <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
             </div>
         </div>
 
+        <!-- Objet -->
         <div class="mb-3">
             <label for="object">Objet <span class="text-muted">(requis)</span></label>
             <select class="form-select d-block w-100" id="object" required>
-              <option>Réalisation d'un devis</option>
-              <option>Demande d'information</option>
-              <option>Autre</option>
+                <option>Réalisation d'un devis</option>
+                <option>Demande d'information</option>
+                <option>Autre</option>
             </select>
         </div>
 
+        <!-- Message -->
         <div class="mb-3">
             <label for="message">Message <span class="text-muted">(requis)</span></label>
             <textarea class="form-control" placeholder="" id="message" style="height: 100px"></textarea>
         </div>
 
+        <!-- Accord -->
         <div class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="same-address">
             <label class="custom-control-label" for="same-address">J'autorise <span class="company-green">Jardins du Nord</span> à me recontacter <span class="text-muted">(requis)</span></label>
         </div>
-        
-        <!-- Bouton désactivé car démo -->
+
+        <!-- Bouton (désactivé car démo) -->
         <button class="btn text-white" type="button" id="submitButton">Envoyer</button>
     </form>
 </div>
+
+<!------- Modals ------->
+<!-- Credits -->
+<div class="modal fade" id="credits" aria-labelledby="credits" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Titre -->
+            <div class="modal-header">
+                <h5 class="modal-title company-greener">Crédits</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Contenu -->
+            <div class="modal-body">
+                <h6>Site réalisé par <a href="https://arthurbeau.fr" target="_blank">Arthur</a>, <a href="https://www.marcsteliga.fr" target="_blank">Marc</a> et <a href="https://github.com/albancardon" target="_blank">Alban</a>.</h6>
+                <p>Projet n°2 formation Développeur .NET à <a href="https://lamanu.fr/">La Manu</a>.</p>
+                <h6>Images :</h6>
+                <ul>
+                    <li>
+                        Logo par <a href="https://www.marcsteliga.fr" target="_blank">Marc</a>.
+                    </li>
+                    <li>
+                        Autres images par les contributeurs de <a href="https://pixabay.com">Pixabay</a>.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+</div>
+<!-- CGU -->
+<div class="modal fade" id="cgu" aria-labelledby="cgu" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Titre -->
+            <div class="modal-header">
+                <h5 class="modal-title company-greener">Conditions générales d'utilisation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Contenu -->
+            <div class="modal-body">
+                <a href="#">Les conditions générales d'utilisation sont disponibles uniquement au format PDF, dont le lien de téléchargement est accessible en cliquant sur ce message.</a>
+                <p>Jardins du Nord se réserve la faculté de modifier à tout moment les présentes Conditions Générales. Le Client sera informé de ces modifications par tout moyen utile 30 (trente) jours au moins avant leur entrée en vigueur.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!------- ------ ------->
 
 <!-- Footer -->
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top text-md-center">
     <p class="col-md-4 mb-0 text-white">&copy; 2023 Jardins Du Nord</p>
 
     <div class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
-        <img src="img/logo_footer.png" class="bi me-2" width="59" height="46">
+        <img src="img/logo_footer.png" class="bi me-2" width="59" height="46" alt="Logo de l'entreprise, version blanche">
     </div>
     <ul class="nav col-md-4 justify-content-center">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Crédits</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">C.G.U.</a></li>
+        <li class="nav-item"><a href="#credits" data-bs-toggle="modal" data-bs-target="#credits" class="nav-link px-2 text-white">Crédits</a></li>
+        <li class="nav-item"><a href="#cgu" data-bs-toggle="modal" data-bs-target="#cgu" class="nav-link px-2 text-white">C.G.U</a></li>
     </ul>
 </footer>
