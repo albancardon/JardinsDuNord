@@ -4,19 +4,8 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-@media screen and ( min-height: 736px ) { /* + iphone 6 */
-    #header {
-        height: 30%;
-    }
-}
-
-@media screen and ( max-height: 736px ) { /* en dessouss d'iphone 6 */
-    #header {
-        height: 750px;
-    }
-}
-
 #header {
+    height: 30%;
     background: url('../img/header.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
